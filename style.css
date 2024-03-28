@@ -1,0 +1,158 @@
+/* Font Include */
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+/* header styling */
+.headerTab {
+    width: 1440px;
+    height: 399px;
+    background: linear-gradient(to right, #05386c, #8A2472);
+}
+
+.headerTab .headerData {
+
+    padding-top: 250px;
+    position: absolute;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 75px;
+
+}
+
+.headerTab .headerData p:first-of-type {
+    margin-top: -50px;
+}
+
+.headerTab h1 {
+    padding-top: 70px;
+    padding-left: 600px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -300px;
+    color: white;
+}
+
+.headerTab .logo img {
+    width: 166px;
+    height: 81px;
+    position: absolute;
+    margin-left: 1150px;
+
+}
+
+.headerTab .id {
+    position: relative;
+    margin-left: 800px;
+}
+
+.headerTab .id p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 130px;
+}
+
+/*styling for basic details*/
+.basicDetails {
+    display: flex;
+    width: 1440px;
+    height: 470px;
+}
+
+.leftDetails,
+.rightDetails {
+    flex: 1;
+    height: 450px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.leftDetails {
+    margin-top: 50px;
+    padding-left: 40px;
+}
+
+/* .rightDetails {
+    background-color: yellow;
+} */
+
+.rightDetails h3 {
+    margin-left: 68%;
+}
+
+.rightDetails table {
+    width: 600px;
+    height: 300px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.rightDetails th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rightDetails th {
+    width: 150px;
+}
+
+/* main table styling*/
+.mainTable table {
+    width: 1286px;
+    height: 450px;
+    margin-left: 40px;
+    border-bottom: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.mainTable th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.mainTable th {
+    background-color: blue;
+    color: white;
+}
+
+.mainTable tr:nth-child(2) {
+    height: 10em;
+
+}
+
+/*-----*/
+
+
+/*footer styling bank details*/
+.bankDetails {
+    margin-top: 30px;
+    width: 1440px;
+    height: 300px;
+}
+
+.bankDetails h4 {
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bankDetails p {
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerColor1 {
+
+    width: 1440px;
+    height: 5px;
+    background: linear-gradient(to right, #05386c, #8A2472);
+}
+
+.footerColor2 {
+    margin-top: 3px;
+    width: 1440px;
+    height: 25px;
+    background: linear-gradient(to right, #05386c, #8A2472);
+}
